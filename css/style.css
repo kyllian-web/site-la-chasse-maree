@@ -1,0 +1,50 @@
+body{
+    background-image: url(../img/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+}
+header{
+    display: block;
+    /* align-items: center;
+    justify-content: center;
+    position: center; */
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.84);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.Menu_Principale ul{
+    text-align: center;
+    word-spacing: 250px;
+}
+.Menu_Principale ul li{
+    display: inline-block;
+}
+.Menu_Principale ul li a{
+    color: #fff;
+    font-size: 300%;
+    text-decoration: none;
+}
+.Menu_Principale ul li:hover a{
+    background-color: rgb(76, 76, 76, 0.934);
+    font-size: 300%;
+    padding: 1vw;
+    text-decoration: none;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.934);
+    color: #fff;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    /* padding-top:50px;
+    height:50px; */
+}
+p.end{
+    text-align: center;
+}

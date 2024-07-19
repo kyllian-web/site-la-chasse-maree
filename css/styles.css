@@ -1,0 +1,80 @@
+header{
+    display: block;
+    background-repeat: repeat;
+    background-image: url(../img/sortie_restaurant.jpg);
+    background-color: rgb(58, 143, 177);
+    background-size: contain;
+    background-position: center bottom 25%;
+    text-align: center;
+    font-size: 3.5vw;
+    color: #fff;
+    /* height: 25%;
+    background-color: linear-gradient(rgb(7, 137, 252) rgb(255, 217, 130)); */
+}
+p.acceuil{
+    font-size: 3.5vw;
+  
+}
+img.étoile{
+    width: 1em;
+}
+body.Le_Chasse_Marée{
+     background-color: rgb(255, 217, 130);
+} 
+nav.Menu_Principale{
+    background-color: rgb(84, 173, 251);
+    /* vertical-align: top; */
+    /* background: 5px; */
+  }
+  nav.Menu_Principale ul{
+    word-spacing: 5%;
+    text-align: center;
+  }
+  nav.Menu_Principale ul li{
+    list-style-image:none;
+    display: inline-block;
+    line-height: 50px;
+    /* width: 100%; */
+    height: 50px;
+  }
+  nav.Menu_Principale ul li a{
+    text-decoration: none;
+    background-color: rgb(84, 173, 251);
+    /*border: 5px solid rgb(255, 184, 91) ;*/
+    color: #fff;
+    /* padding: 5px; */
+  }
+  nav.Menu_Principale ul li a:hover{
+    background-color: #fff;
+    color: rgb(84, 173, 251);
+    transition: 0.5s;
+    line-height: 50px;
+  }
+  footer{
+    padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  background-color: black;
+  background-clip: border-box;
+  }
+  p.aurevoir{
+      color: #fff;
+      text-align: center;
+      font-size: 1.5vw;
+  }
+  div.crabe{
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+  }
+  img.sortie{
+      width: 350px;
+  }
+  p.end{
+    font-style: oblique;
+    color: white;
+    padding-left: 5%;
+  }
